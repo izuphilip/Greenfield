@@ -14,12 +14,12 @@
     <!-- CSS -->
     <link href="<?=$assets?>/css/reset.css" rel="stylesheet">
     <link href="<?=$assets?>/css/fonts.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/bootstrap/<?=$assets?>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/select2/<?=$assets?>/css/select2.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/font-awesome/<?=$assets?>/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/magnific-popup/<?=$assets?>/css/magnific-popup.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/iconmoon/<?=$assets?>/css/iconmoon.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/owl-carousel/<?=$assets?>/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/select2/css/select2.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+    <link href="<?=$assets?>/assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
     <link href="<?=$assets?>/css/animate.css" rel="stylesheet">
     <link href="<?=$assets?>/css/custom.css" rel="stylesheet">
 
@@ -33,10 +33,7 @@
 
 <body>
 
-    <!-- ==============================================
-    ** Preloader **
-    =================================================== -->
-    <div id="loading">
+<div id="loading">
         <div class="element">
             <div class="sk-folding-cube">
                 <div class="sk-cube1 sk-cube"></div>
@@ -46,10 +43,6 @@
             </div>
         </div>
     </div>
-
-    <!-- ==============================================
-    ** Header **
-    =================================================== -->
     <header>
         <!-- Start Header top Bar -->
         <div class="header-top">

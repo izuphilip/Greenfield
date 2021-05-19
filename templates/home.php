@@ -1,4 +1,3 @@
-=================================================== -->
     <div class="banner-outer">
         <div class="banner-slider">
             <div class="slide1">
