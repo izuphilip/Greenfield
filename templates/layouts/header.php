@@ -12,8 +12,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" type="image/x-icon" href="<?=$assets?>/images/favicon.ico">
-    <title>Edumart - Educational Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?=$assets?>/images/lgo.png">
+    <title>GreenField</title>
 
     <!-- CSS -->
     <link href="<?=$assets?>/css/reset.css" rel="stylesheet">
@@ -51,12 +51,12 @@
         <!-- Start Header top Bar -->
          <!-- Start Header Middle -->
          <div class="container header-middle">
-            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="./"><img src="<?=$assets?>/images/slogo7.png" class="img-responsive" alt="" style="height: 90px; width: 300px;"></a></span>
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="./"><img src="<?=$assets?>/images/lgoo.png" class="img-responsive" alt="" style="height: 70px; width: 200px;"></a></span>
                 <div class="col-xs-6 col-sm-3"></div>
                 <div class="col-xs-6 col-sm-9">
                     <div class="contact clearfix">
                         <ul class="hidden-xs">
-                            <li> <span>Email</span> <a href="mailto:info@edumart.org">info@edumart.org</a> </li>
+                            <li> <span>Email</span> <a href="mailto:info@Greenfield.org">info@Greenfield.org</a> </li>
                             <li> <span>Contact</span> 09024444626</li>
                         </ul>
                         <a href="login.html" class="login">Apply Here<span class="icon-more-icon"></span></a>

@@ -69,8 +69,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-7 col-sm-push-5 left-block"> <span class="sm-head">the Online Education portal</span>
-                    <h2>Edumart Online</h2>
-                    <p>Building on Edumart Group’s rich experience with online MBA at Edumart University Online! Designing and delivering both graduate and post-graduate programs across a variety of disciplines, Edumart University Online, offering online MBA has worked upon the knowledge-base created by our highly qualified faculties, our research, publishing and training experience, to create online MBA programs that offer a rich learning experience.</p>
+                    <h2>Greenfield Online</h2>
+                    <p>Building on Greenfield Group’s rich experience with online MBA at Greenfield University Online! Designing and delivering both graduate and post-graduate programs across a variety of disciplines, Greenfield University Online, offering online MBA has worked upon the knowledge-base created by our highly qualified faculties, our research, publishing and training experience, to create online MBA programs that offer a rich learning experience.</p>
                     <div class="know-more-wrapper"> <a href="about.html" class="know-more">Know More <span class="icon-more-icon"></span></a> </div>
                 </div>
                 <div class="col-sm-5 col-sm-pull-7">

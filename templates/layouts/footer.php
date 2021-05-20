@@ -10,7 +10,7 @@
                     <div class="foot-nav">
                         <h3>About US</h3>
                         <ul>
-                            <li><a href="#">Edumart Group of Institutions</a></li>
+                            <li><a href="#">Greenfield Group of Institutions</a></li>
                             <li><a href="#">Our Institutes and Universities</a></li>
                             <li><a href="#">Management Team</a></li>
                             <li><a href="#">Approval and Recognition</a></li>
@@ -28,7 +28,7 @@
                         </ul>
                     </div>
                     <div class="foot-nav">
-                        <h3>Why Edumart</h3>
+                        <h3>Why Greenfield</h3>
                         <ul>
                             <li><a href="#">Introduction</a></li>
                             <li><a href="#">Learn Everywhere</a></li>
@@ -49,8 +49,8 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="footer-logo hidden-xs"><a href="index.html"><img src="<?=$assets?>/images/footer-logo.png" class="img-responsive" alt=""></a></div>
-                    <p>© 2020 <span>Edumart</span>. All rights reserved</p>
+                    <div class="footer-logo hidden-xs"><a href="./"><img src="<?=$assets?>/images/lgo.png" class="img-responsive" alt=""></a></div>
+                    <p>© 2020 <span>Greenfield</span>. All rights reserved</p>
                     <ul class="terms clearfix">
                         <li><a href="terms.html">TERMS OF USE</a></li>
                         <li><a href="privacy.html">PRIVACY POLICY</a></li>

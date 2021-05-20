@@ -86,7 +86,7 @@
                 <li class="col-sm-4 equal-hight">
                     <div class="inner"> <img src="images/placement-ico.jpg" alt="Placement Assistance">
                         <h3>Placement Assistance</h3>
-                        <p>Edumart University Online has access to all of Edumart Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
+                        <p>Greenfield University Online has access to all of Greenfield Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
                     </div>
                 </li>
                 <li class="col-sm-4 equal-hight">

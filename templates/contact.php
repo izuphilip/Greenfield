@@ -64,13 +64,13 @@
             <div class="contact-detail">
                 <div class="address">
                     <div class="inner">
-                        <h3>Edumart</h3>
+                        <h3>Greenfield</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
                     </div>
                     <div class="inner">
                         <h3>000 0000 000</h3>
                     </div>
-                    <div class="inner"> <a href="mailto:info@edumart.com">info@edumart.com</a> </div>
+                    <div class="inner"> <a href="mailto:info@Greenfield.com">info@Greenfield.com</a> </div>
                 </div>
                 <div class="contact-bottom">
                     <ul class="follow-us clearfix">
@@ -100,7 +100,7 @@
                 <li class="col-sm-4 equal-hight">
                     <div class="inner"> <img src="images/faq-ico.jpg" alt="Placement Assistance">
                         <h3>Faq’s</h3>
-                        <p>Edumart University Online has access to all of Edumart Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
+                        <p>Greenfield University Online has access to all of Greenfield Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
                     </div>
                 </li>
                 <li class="col-sm-4 equal-hight">
