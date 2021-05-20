@@ -4,9 +4,10 @@
                 <div class="container">
                     <div class="content animated fadeInRight">
                         <div class="fl-right">
-                            <h1 class="animated fadeInRight">Explore the World of <span class="animated fadeInRight">Our Graduates</span> </h1>
-                            <p class="animated fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <a href="about.html" class="btn animated fadeInRight">Know More <span class="icon-more-icon"></span></a>
+                            <h1 class="animated fadeInRight" style="color:white;">Explore the World of <span class="animated fadeInRight">Our Graduates</span> </h1>
+                            <p class="animated fadeInRight" style="color:white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <a href="./about" class="btn animated fadeInRight" style="color:white;">Know More <span class="icon-more-icon"></span></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -16,8 +17,8 @@
                     <div class="content">
                         <h1 class="animated fadeInUp">MBA Marketing</h1>
                         <p class="animated fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="about.html" class="btn animated fadeInUp">Know More <span class="icon-more-icon"></span></a>
-                        <a href="gallery.html" class="btn white animated fadeInUp hidden-xs">Take a Tour <span class="icon-more-icon"></span></a>
+                        <a href="./about" class="btn animated fadeInUp">Know More <span class="icon-more-icon"></span></a>
+                        <a href="./gallery" class="btn white animated fadeInUp hidden-xs">Take a Tour <span class="icon-more-icon"></span></a>
                     </div>
                 </div>
             </div>
@@ -42,8 +43,8 @@
                 <li class="col-sm-4 apply-online clearfix equal-hight">
                     <div class="icon"><img src="<?=$assets?>/images/apply-online-ico.png" class="img-responsive" alt=""></div>
                     <div class="detail">
-                        <h3>Apply Online</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing...</p>
+                        <h3><?= $LANG['home_apply'] ?></h3>
+                        <p><?= $LANG['home_apply_text']?></p>
                         <a href="apply-online.html" class="more"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </li>
@@ -151,51 +152,6 @@
 
     <!-- ==============================================
     ** Our Importance **
-    =================================================== -->
-    <section class="our-impotance padding-lg">
-        <div class="container">
-            <ul class="row">
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/study-time-ico.jpg" alt="Malleable Study Time">
-                        <h3>Malleable Study Time</h3>
-                        <p>Study material available online 24/7. Study in your free time, no time management issues, perfect balance between work and study time.</p>
-                    </div>
-                </li>
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/placement-ico.jpg" alt="Placement Assistance">
-                        <h3>Placement Assistance</h3>
-                        <p>Edumart University Online has access to all of Edumart Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
-                    </div>
-                </li>
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/easy-access-ico.jpg" alt="Easy To Access">
-                        <h3>Easy To Access</h3>
-                        <p>There is easy accessibility to online help in terms of online teachers and online forums. Teachers can be contacted with the help of video chats and e-mails.</p>
-                    </div>
-                </li>
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/study-go-ico.jpg" alt="Study on the Go">
-                        <h3>Study on the Go</h3>
-                        <p>LMS that is easily accessible on a number of devices such as mobile phones, I-pads, computers and other such devices. Availability of ready reckoners such that students can remember the key points of the session learnt.</p>
-                    </div>
-                </li>
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/get-innovative-ico.jpg" alt="Get an Innovative, In-depth Transition">
-                        <h3>Get an Innovative, <span>In-depth Transition</span></h3>
-                        <p>The transition to an environment of learning becomes easy with the availability of multiple sources of learning such as text books, power-point presentations, and story boards on various subjects.</p>
-                    </div>
-                </li>
-                <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/practical-ico.jpg" alt="Practical & Interactive Participation">
-                        <h3>Practical & Interactive <span>Participation</span></h3>
-                        <p>Assessments and interactivities are given at the end of every session such that the practical application of theory learnt can be gauged.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- ==============================================
     ** How Study **
     =================================================== -->
     <section class="how-study padding-lg">
@@ -273,84 +229,12 @@
     <!-- ==============================================
     ** News & Events **
     =================================================== -->
-    <section class="news-events padding-lg">
-        <div class="container">
-            <h2><span>There are many ways to learn</span>News and events</h2>
-            <ul class="row cs-style-3">
-                <li class="col-sm-4">
-                    <div class="inner">
-                        <figure> <img src="<?=$assets?>/images/new-event-img1.jpg" class="img-responsive">
-                            <figcaption>
-                                <div class="cnt-block"> <a href="news.html" class="plus-icon">+</a>
-                                    <h3>We have added new features to Dream Palace</h3>
-                                    <div class="bottom-block clearfix">
-                                        <div class="date">
-                                            <div class="icon"><span class="icon-calander-icon"></span></div>
-                                            <span>14 Feb</span> 2017
-                                        </div>
-                                        <div class="comment">
-                                            <div class="icon"><span class="icon-chat-icon"></span></div>
-                                            <span>24</span> comments
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li class="col-sm-4">
-                    <div class="inner">
-                        <figure> <img src="<?=$assets?>/images/new-event-img2.jpg" class="img-responsive">
-                            <figcaption>
-                                <div class="cnt-block"> <a href="news.html" class="plus-icon">+</a>
-                                    <h3>We have added new features to Dream Palace</h3>
-                                    <div class="bottom-block clearfix">
-                                        <div class="date">
-                                            <div class="icon"><span class="icon-calander-icon"></span></div>
-                                            <span>14 Feb</span> 2017
-                                        </div>
-                                        <div class="comment">
-                                            <div class="icon"><span class="icon-chat-icon"></span></div>
-                                            <span>24</span> comments
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li class="col-sm-4">
-                    <div class="inner">
-                        <figure> <img src="<?=$assets?>/images/new-event-img3.jpg" class="img-responsive">
-                            <figcaption>
-                                <div class="cnt-block"> <a href="news.html" class="plus-icon">+</a>
-                                    <h3>We have added new features to Dream Palace</h3>
-                                    <div class="bottom-block clearfix">
-                                        <div class="date">
-                                            <div class="icon"><span class="icon-calander-icon"></span></div>
-                                            <span>14 Feb</span> 2017
-                                        </div>
-                                        <div class="comment">
-                                            <div class="icon"><span class="icon-chat-icon"></span></div>
-                                            <span>24</span> comments
-                                        </div>
-                                    </div>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-            </ul>
-            <div class="know-more-wrapper"> <a href="news.html" class="know-more">More Post <span class="icon-more-icon"></span></a> </div>
-        </div>
-    </section>
-
-    <!-- ==============================================
+   <!-- ==============================================
     ** Campus Tour **
     =================================================== -->
     <section class="campus-tour padding-lg">
         <div class="container">
-            <h2><span>Our campus have a lot to offer for our students</span>TAKE A CAMPUS TOUR</h2>
+            <h2><span>We have a lot to offer</span>View Gallery</h2>
         </div>
         <ul class="gallery clearfix">
             <li>
@@ -444,50 +328,4 @@
                 <figure><img src="<?=$assets?>/images/tour10.jpg" class="img-responsive" alt=""></figure>
             </li>
         </ul>
-    </section>
-
-    <!-- ==============================================
-    ** Brands **
-    =================================================== -->
-    <section class="logos">
-        <div class="container">
-            <ul class="owl-carousel clearfix">
-                <li><a href="#"><img src="<?=$assets?>/images/logo1.jpg" class="img-responsive" alt=""></a></li>
-                <li><a href="#"><img src="<?=$assets?>/images/logo2.jpg" class="img-responsive" alt=""></a></li>
-                <li><a href="#"><img src="<?=$assets?>/images/logo3.jpg" class="img-responsive" alt=""></a></li>
-                <li><a href="#"><img src="<?=$assets?>/images/logo4.jpg" class="img-responsive" alt=""></a></li>
-                <li><a href="#"><img src="<?=$assets?>/images/logo5.jpg" class="img-responsive" alt=""></a></li>
-                <li><a href="#"><img src="<?=$assets?>/images/logo6.jpg" class="img-responsive" alt=""></a></li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- ==============================================
-    ** Testimonials **
-    =================================================== -->
-    <section class="testimonial padding-lg">
-        <div class="container">
-            <div class="wrapper">
-                <h2>Alumini Testimonials</h2>
-                <ul class="testimonial-slide">
-                    <li>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                        <span>Thomas, <span>London</span></span>
-                    </li>
-                    <li>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                        <span>Thomas, <span>London</span></span>
-                    </li>
-                    <li>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                        <span>Thomas, <span>London</span></span>
-                    </li>
-                </ul>
-                <div id="bx-pager">
-                    <a data-slide-index="0" href=""><img src="<?=$assets?>/images/testimonial-thumb1.jpg" class="img-circle" alt=""></a>
-                    <a data-slide-index="1" href=""><img src="<?=$assets?>/images/testimonial-thumb2.jpg" class="img-circle" alt=""></a>
-                    <a data-slide-index="2" href=""><img src="<?=$assets?>/images/testimonial-thumb3.jpg" class="img-circle" alt=""></a>
-                </div>
-            </div>
-        </div>
     </section>

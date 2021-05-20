@@ -1,8 +1,12 @@
+<?php
+	include('./config/lang.php');
+?>
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <base href="<?=domain?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1">
     <meta name="description" content="">
@@ -45,53 +49,17 @@
     </div>
     <header>
         <!-- Start Header top Bar -->
-        <div class="header-top">
-            <div class="container clearfix">
-                <ul class="follow-us hidden-xs">
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-                <div class="right-block clearfix">
-                    <ul class="top-nav hidden-xs">
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="apply-online.html">Apply Online</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="faq1.html">FAQs</a></li>
-                    </ul>
-                    <div class="lang-wrapper">
-                        <div class="select-lang">
-                            <select id="currency_select">
-                                <option value="usd">USD</option>
-                                <option value="aud">AUD</option>
-                                <option value="gbp">GBP</option>
-                            </select>
-                        </div>
-                        <div class="select-lang2">
-                            <select class="custom_select">
-                                <option value="en">English</option>
-                                <option value="fr">French</option>
-                                <option value="de">German</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Header top Bar -->
-        <!-- Start Header Middle -->
-        <div class="container header-middle">
-            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="index.html"><img src="<?=$assets?>/images/logo.png" class="img-responsive" alt=""></a></span>
+         <!-- Start Header Middle -->
+         <div class="container header-middle">
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="./"><img src="<?=$assets?>/images/slogo7.png" class="img-responsive" alt="" style="height: 90px; width: 300px;"></a></span>
                 <div class="col-xs-6 col-sm-3"></div>
                 <div class="col-xs-6 col-sm-9">
                     <div class="contact clearfix">
                         <ul class="hidden-xs">
                             <li> <span>Email</span> <a href="mailto:info@edumart.org">info@edumart.org</a> </li>
-                            <li> <span>Toll Free</span> 1800 000 0000 </li>
+                            <li> <span>Contact</span> 09024444626</li>
                         </ul>
-                        <a href="login.html" class="login">Student Login <span class="icon-more-icon"></span></a>
+                        <a href="login.html" class="login">Apply Here<span class="icon-more-icon"></span></a>
                     </div>
                 </div>
             </div>
@@ -104,44 +72,34 @@
                     <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar">
-                    <form class="navbar-form navbar-right">
-                        <input type="text" placeholder="Search Now" class="form-control">
-                        <button class="search-btn"><span class="icon-search-icon"></span></button>
-                    </form>
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown"> <a data-toggle="dropdown" href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Index 1</a></li>
-                                <li><a href="index2.html">Index 2</a></li>
+                    <ul class="nav navbar-nav width-fluid">
+                        <li > <a href="./">Home</i></a>
+                           
+                        </li>
+                        <li> <a href="./about">About</a></li>
+                        <li class="dropdown"> <a data-toggle="dropdown" href="./pages/course">Courses <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu dropright">
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/21st-century-leadership-inspiring-excellence-and-engagement ">21st Century Leadership Inspiring Excellence And Engagement </i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Business-administration-faculty">Business Administration Faculty </i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Business-continuity-management ">Business Continuity Management </i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Business-development-masterclass">Business Development Masterclass</i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Business-model-innovation">Business Model Innovation</i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Developing-strategic-marketing-plan ">Developing Strategic Marketing Plan </i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Global-leadership-masterclass-for-ceos">Global Leadership Masterclass For Ceos</i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Leadership-and-management-faculty ">Leadership And Management Faculty </i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/Leadership-and-management-Faculty ">Leadership And Management In Digital Era</i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/mastering-high-performance-management">Mastering High Performance Management</i></a>
+                                <li class="dropdown" dropright><a data-toggle="dropdown dropright" href="./pages/course/The-board-room-for-women-of-excellence">The Board Room For Women Of Excellence</i></a>
+                            </li>
+                               
                             </ul>
                         </li>
-                        <li> <a href="about.html">About</a></li>
-                        <li class="dropdown"> <a data-toggle="dropdown" href="#">Our Courses <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="course-listing.html">course Listing</a></li>
-                                <li><a href="mba-marketing.html">MBA Marketing</a></li>
-                                <li><a href="mba-general.html">MBA General</a></li>
-                                <li><a href="mba-operations.html">MBA Operations</a></li>
-                            </ul>
+                       
                         </li>
-                        <li> <a href="gallery.html">Gallery</a></li>
-                        <li class="dropdown"> <a data-toggle="dropdown" href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="visible-xs"><a href="register.html">Register</a></li>
-                                <li class="visible-xs"><a href="apply-online.html">Apply online</a></li>
-                                <li class="visible-xs"><a href="blog.html">Blog</a></li>
-                                <li class="visible-xs"><a href="faq.html">FAQs</a></li>
-                                <li><a href="news.html">Latest News</a></li>
-                                <li><a href="testimonials.html">Testimonials</a></li>
-                                <li><a href="faq1.html">FAQ 1</a></li>
-                                <li><a href="faq2.html">FAQ 2</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                <li class="hidden-xs"><a href="privacy.html">Privacy Policy</a></li>
-                                <li class="hidden-xs"><a href="terms.html">Terms of Use</a></li>
-                                <li class="hidden-xs"><a href="generic-ui.html">Generic UI</a></li>
-                            </ul>
-                        </li>
-                        <li> <a href="contact.html">Contact</a></li>
+                        <li><a href="./event">Events</a></li>
+                        <li><a href="./training">Training</a></li>
+                        <li><a href="./conference">Conference</a></li>
+                        <li> <a href="./contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

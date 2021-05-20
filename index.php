@@ -15,7 +15,102 @@ $Route->add('/greenfield/', function () {
     $Template->render("home");
 
 }, 'GET');
-//Home page//
+
+
+//About page//
+$Route->add('/greenfield/about', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title","About");
+
+    $Template->render("about");
+
+}, 'GET');
+//About page//
+
+
+
+//Contact page//
+$Route->add('/greenfield/contact', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title","Contact");
+
+    $Template->render("contact");
+
+}, 'GET');
+//Contact page//
+
+//Conference page//
+$Route->add('/greenfield/conference', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title","conference");
+
+    $Template->render("conference");
+
+}, 'GET');
+//Conference page//
+
+//Event page//
+$Route->add('/greenfield/event', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title","event");
+
+    $Template->render("event");
+
+}, 'GET');
+//Event page//
+
+//Training page//
+$Route->add('/greenfield/training', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title","training");
+
+    $Template->render("training");
+
+}, 'GET');
+//Training page//
+
+
+
+// Pages//
+$Route->add('/greenfield/pages/{page}', function ($page) {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title",ucfirst($page));
+
+    $Template->render("pages.{$page}");
+
+}, 'GET');
+// Pages//
+
+// Pages//
+$Route->add('/greenfield/pages/course/{course}', function ($course) {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title",ucfirst($course));
+
+    $Template->render("pages.course.{$course}");
+
+}, 'GET');
+// Pages//
 
 
 
