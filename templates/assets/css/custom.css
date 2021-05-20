@@ -600,13 +600,13 @@ textarea:focus::placeholder{
 	height: 588px;
 }
 .banner-outer .slide1 {
-	background: url(../images/banner1.png) no-repeat center top / cover;
+	background: url(../images/grad.jpg) no-repeat center top / cover;
 }
 .banner-outer .slide2 {
-	background: url(../images/banner2.jpg) no-repeat center top / cover;
+	background: url(../images/Tutoring.jpeg) no-repeat center top / cover;
 }
 .banner-outer .slide3 {
-	background: url(../images/banner3.jpg) no-repeat center top / cover;
+	background: url(../images/banner4.png) no-repeat center top / cover;
 }
 .banner-outer .content {
 	display: table-cell;
