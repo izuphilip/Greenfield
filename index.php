@@ -4,28 +4,30 @@
 define('DOT', '.');
 require_once DOT . "/bootstrap.php";
 
+
+//Route for the SITE//
 //Home page//
 $Route->add('/greenfield/', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","Home");
 
-    $Template->render("home");
+    $Template->render("site.home");
 
 }, 'GET');
 
 
 //About page//
-$Route->add('/greenfield/about', function () {
+$Route->add('/greenfield/site/about', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","About");
 
-    $Template->render("about");
+    $Template->render("site.about");
 
 }, 'GET');
 //About page//
@@ -33,53 +35,53 @@ $Route->add('/greenfield/about', function () {
 
 
 //Contact page//
-$Route->add('/greenfield/contact', function () {
+$Route->add('/greenfield/site/contact', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","Contact");
 
-    $Template->render("contact");
+    $Template->render("site.contact");
 
 }, 'GET');
 //Contact page//
 
 //Conference page//
-$Route->add('/greenfield/conference', function () {
+$Route->add('/greenfield/site/conference', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","conference");
 
-    $Template->render("conference");
+    $Template->render("site.conference");
 
 }, 'GET');
 //Conference page//
 
 //Event page//
-$Route->add('/greenfield/event', function () {
+$Route->add('/greenfield/site/event', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","event");
 
-    $Template->render("event");
+    $Template->render("site.event");
 
 }, 'GET');
 //Event page//
 
 //Training page//
-$Route->add('/greenfield/training', function () {
+$Route->add('/greenfield/site/training', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title","training");
 
-    $Template->render("training");
+    $Template->render("site.training");
 
 }, 'GET');
 //Training page//
@@ -87,32 +89,60 @@ $Route->add('/greenfield/training', function () {
 
 
 // Pages//
-$Route->add('/greenfield/pages/{page}', function ($page) {
+$Route->add('/greenfield/site/pages/{page}', function ($page) {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title",ucfirst($page));
 
-    $Template->render("pages.{$page}");
+    $Template->render("site.pages.{$page}");
 
 }, 'GET');
 // Pages//
 
 // Pages//
-$Route->add('/greenfield/pages/course/{course}', function ($course) {
+$Route->add('/greenfield/site/pages/course/{course}', function ($course) {
     
     $Template = new Apps\Template;
-    $Template->addheader("layouts.header");
-    $Template->addfooter("layouts.footer");
+    $Template->addheader("site.layouts.header");
+    $Template->addfooter("site.layouts.footer");
     $Template->assign("title",ucfirst($course));
 
-    $Template->render("pages.course.{$course}");
+    $Template->render("site.pages.course.{$course}");
 
 }, 'GET');
 // Pages//
 
+//END of site Route//
 
+
+
+
+//Start Admin  login Route//
+
+$Route->add('/greenfield/admin/login' , function(){
+
+    $Template = new Apps\Template;
+    $Template->assign("title","Home");
+    $Template->render("admin.login.home");
+    
+
+}, 'GET');
+
+
+//Admin Dashboard
+
+$Route->add('/greenfield/admin/dashboard', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("admin.layouts.header");
+    $Template->addfooter("admin.layouts.footer");
+    $Template->assign("title","home");
+
+    $Template->render("admin.dashboard.home");
+
+}, 'GET');
 
 
 
