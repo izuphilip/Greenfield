@@ -12,20 +12,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
           
-    <link rel="shortcut icon" type="image/x-icon" href="<?=$assets?>/images/lgo.png">
-    <title>GreenField</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?=$assets?>/site/images/lgo.png">
+    <title>Greenfield</title>
 
     <!-- CSS -->
-    <link href="<?=$assets?>/css/reset.css" rel="stylesheet">
-    <link href="<?=$assets?>/css/fonts.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/select2/css/select2.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/iconmoon/css/iconmoon.css" rel="stylesheet">
-    <link href="<?=$assets?>/assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?=$assets?>/css/animate.css" rel="stylesheet">
-    <link href="<?=$assets?>/css/custom.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/css/reset.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/css/fonts.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/select2/css/select2.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/css/animate.css" rel="stylesheet">
+    <link href="<?=$assets?>/site/css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,7 +37,10 @@
 
 <body>
 
-<div id="loading">
+    <!-- ==============================================
+    ** Preloader **
+    =================================================== -->
+    <div id="loading">
         <div class="element">
             <div class="sk-folding-cube">
                 <div class="sk-cube1 sk-cube"></div>
@@ -47,11 +50,12 @@
             </div>
         </div>
     </div>
+
     <header>
         <!-- Start Header top Bar -->
          <!-- Start Header Middle -->
          <div class="container header-middle">
-            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="./"><img src="<?=$assets?>/images/green.png" class="img-responsive" alt="" style="height: 70px; width: 200px;"></a></span>
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="./"><img src="<?=$assets?>/site/images/lgo.png" class="img-responsive" alt="" style="height: 70px; width: 200px;"></a></span>
                 <div class="col-xs-6 col-sm-3"></div>
                 <div class="col-xs-6 col-sm-9">
                     <div class="contact clearfix">

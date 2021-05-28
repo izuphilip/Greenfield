@@ -7,7 +7,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="content">
-                        <h1>About Us</h1>
+                        <h1 style="color: white;">About Us</h1>
+                        <h5 style="font-style:italic;">Explore Us...</h5>
                     </div>
                 </div>
             </div>
@@ -33,7 +34,6 @@ We have researched and designed over 50 top-of-the-breed human infrastructure de
 Our Course Directory contains series of demand driven programmes for both public and private sectors as well as Gender-based programmes.
 Be part of our upcoming Young Nigeria Investors Summit (YNIS) – our annual Flagship Programme for emerging young CEOs in Nigeria.</small></p>
                 </div>
-                <div class="col-md-5 about-right"> <img src="images/who-we-are-img.jpg" class="img-responsive" alt=""> </div>
             </div>
         </div>
     </section>

@@ -7,12 +7,10 @@
             <div class="row">
                 <div class="col-sm-8 col-lg-9">
                     <div class="content">
-                        <h1>Contact Us</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h1 style="color: white;">Contact Us</h1>
+                        <h5 style="font-style:italic;">Get In Touch With Us...</h5>
                     </div>
                 </div>
-                <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
-                        <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                     </a></div>
             </div>
         </div>
@@ -68,19 +66,19 @@
             <h2>Still have questions?</h2>
             <ul class="row">
                 <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/help-center-ico.jpg" alt="Malleable Study Time">
+                    <div class="inner"> <img src="<?=$assets?>/site/images/help-center-ico.jpg" alt="Malleable Study Time">
                         <h3>Help Center</h3>
                         <p>Study material available online 24/7. Study in your free time, no time management issues, perfect balance between work and study time.</p>
                     </div>
                 </li>
                 <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/faq-ico.jpg" alt="Placement Assistance">
+                    <div class="inner"> <img src="<?=$assets?>/site/images/faq-ico.jpg" alt="Placement Assistance">
                         <h3>Faq’s</h3>
                         <p>Greenfield University Online has access to all of Greenfield Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
                     </div>
                 </li>
                 <li class="col-sm-4 equal-hight">
-                    <div class="inner"> <img src="<?=$assets?>/images/document-ico.jpg" alt="Easy To Access">
+                    <div class="inner"> <img src="<?=$assets?>/site/images/document-ico.jpg" alt="Easy To Access">
                         <h3>Technical Documents</h3>
                         <p>There is easy accessibility to online help in terms of online teachers and online forums. Teachers can be contacted with the help of video chats and e-mails.</p>
                     </div>

@@ -12,12 +12,12 @@
                         <div class="connect-us">
                             <h3>Connect with Us</h3>
                             <ul class="follow-us clearfix">
-                                <li><a href="./site"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="./site"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="./site"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="./site"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="./site"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href="./site"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="./"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,23 +46,23 @@
                         <div class="instagram">
                             <h3>@INSTAGRAM</h3>
                             <ul class="clearfix">
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/lgo.pmg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/lgo.pmg" class="img-responsive" alt=""></figure>
                                     </a></li>
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/insta-img2.jpg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/insta-img2.jpg" class="img-responsive" alt=""></figure>
                                     </a></li>
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/insta-img3.jpg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/insta-img3.jpg" class="img-responsive" alt=""></figure>
                                     </a></li>
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/insta-img4.jpg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/insta-img4.jpg" class="img-responsive" alt=""></figure>
                                     </a></li>
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/insta-img5.jpg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/insta-img5.jpg" class="img-responsive" alt=""></figure>
                                     </a></li>
-                                <li><a href="./site">
-                                        <figure><img src="<?=$assets?>/images/insta-img6.jpg" class="img-responsive" alt=""></figure>
+                                <li><a href="./">
+                                        <figure><img src="<?=$assets?>/site/images/insta-img6.jpg" class="img-responsive" alt=""></figure>
                                     </a></li>
                             </ul>
                         </div>
@@ -84,15 +84,7 @@
                            
                         </ul>
                     </div>
-                    <div class="foot-nav">
-                        <h3>Courses</h3>
-                        <ul>
-                            <li><a href="./site/pages/course/21st-century-leadership-inspiring-excellence-and-engagement ">2 Year Online MBA General</a></li>
-                            <li><a href="./site/pages/course/21st-century-leadership-inspiring-excellence-and-engagement ">Certificate in HRM</a></li>
-                            <li><a href="./site/pages/course/21st-century-leadership-inspiring-excellence-and-engagement ">Certificate in Marketing</a></li>
-                           
-                        </ul>
-                    </div>
+                   
                     <div class="foot-nav">
                         <h3>Why Greenfield</h3>
                         <ul>
@@ -111,14 +103,22 @@
                             
                         </ul>
                     </div>
+                    <div class="foot-nav col-sm-2" style="color: gold;">
+                    <h3>get In Touch</h3>
+                        <ul>
+                           <li> <small><span style="color: whitesmoke;">Email:</span>info@greenfield.org </small></li>
+                           <li><small><span  style="color: whitesmoke;">Contact:</span>09024444626</small> </li>
+                           <li><small><span  style="color: whitesmoke;">Address:</span><i>Plot 981 Ahmadu Bello Way Apo, Abuja</i> </small> </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="footer-logo hidden-xs"><a href="./site"><img src="<?=$assets?>/images/lgo.png" class="img-responsive" alt=""></a></div>
+                    <div class="footer-logo hidden-xs"><a href="./"><img src="<?=$assets?>/site/images/lgo.png" class="img-responsive" alt=""></a></div>
                    
                 </div>
             <div class="text-center">
 
-                    <p style="color: grey;">© 2021 <span>Greenfield</span>. All rights reserved <a href="http://golojan.net"> Developed by <span>De-Golojan Tech </span></a> </p>
+                    <p style="color: grey;">© 2021 <span>Greenfield</span>. All rights reserved . Developed by<a href="http://golojan.net">  <span>De-Golojan Tech </span></a> </p>
                     
             </div>
             </div>
@@ -128,20 +128,20 @@
     </footer>
 
     <!-- Scroll to top -->
-    <a href="./site" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <a href="./" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 
     <!-- Optional JavaScript -->
-    <script src="<?=$assets?>/js/jquery.min.js"></script>
-    <script src="<?=$assets?>/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="<?=$assets?>/assets/select2/js/select2.min.js"></script>
-    <script src="<?=$assets?>/assets/matchHeight/js/matchHeight-min.js"></script>
-    <script src="<?=$assets?>/assets/bxslider/js/bxslider.min.js"></script>
-    <script src="<?=$assets?>/assets/waypoints/js/waypoints.min.js"></script>
-    <script src="<?=$assets?>/assets/counterup/js/counterup.min.js"></script>
-    <script src="<?=$assets?>/assets/magnific-popup/js/magnific-popup.min.js"></script>
-    <script src="<?=$assets?>/assets/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="<?=$assets?>/js/modernizr.custom.js"></script>
-    <script src="<?=$assets?>/js/custom.js"></script>
+    <script src="<?=$assets?>/site/js/jquery.min.js"></script>
+    <script src="<?=$assets?>/site/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?=$assets?>/site/assets/select2/js/select2.min.js"></script>
+    <script src="<?=$assets?>/site/assets/matchHeight/js/matchHeight-min.js"></script>
+    <script src="<?=$assets?>/site/assets/bxslider/js/bxslider.min.js"></script>
+    <script src="<?=$assets?>/site/assets/waypoints/js/waypoints.min.js"></script>
+    <script src="<?=$assets?>/site/assets/counterup/js/counterup.min.js"></script>
+    <script src="<?=$assets?>/site/assets/magnific-popup/js/magnific-popup.min.js"></script>
+    <script src="<?=$assets?>/site/assets/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="<?=$assets?>/site/js/modernizr.custom.js"></script>
+    <script src="<?=$assets?>/site/js/custom.js"></script>
 </body>
 
 </html>

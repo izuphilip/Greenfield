@@ -7,8 +7,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="content">
-                        <h1>News & events</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h1 style="color: white;">News & events</h1>
+                        <p style="color: grey;font-style:italic;">Greenfield is simply dummy text of the printing and typesetting industry...</p>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <div class="container">
             <ul class="row news-listing">
                 <li class="col-xs-6 col-sm-4 grid-item">
-                    <div class="inner"> <img src="images/news1.jpg" class="img-responsive" alt="">
+                    <div class="inner"> <img src="<?=$assets?>/site/images/work5.jpg" class="img-responsive" alt="">
                         <div class="cnt-block">
                             <ul class="post-detail">
                                 <li><span class="icon-date-icon ico"></span> <span class="bold">01 June</span> 2021</li>
@@ -33,7 +33,7 @@
                     </div>
                 </li>
                                <li class="col-xs-6 col-sm-4 grid-item">
-                    <div class="inner"> <img src="images/news6.jpg" class="img-responsive" alt="">
+                    <div class="inner"> <img src="<?=$assets?>/site/images/worrk8.jpg" class="img-responsive" alt="">
                         <div class="cnt-block">
                             <ul class="post-detail">
                                 <li><span class="icon-date-icon ico"></span> <span class="bold">01 June</span> 2021</li>
@@ -45,6 +45,7 @@
                 </li>
                
                 <li class="col-xs-6 col-sm-4 grid-item">
+                <div class="inner"> <img src="<?=$assets?>/site/images/work3.jpg" class="img-responsive" alt="">
                     <div class="inner">
                         <div class="cnt-block">
                             <ul class="post-detail">
