@@ -130,12 +130,12 @@ $Route->add('/greenfield/admin/login' , function(){
 
 }, 'GET');
 
-$Route->add('/greenfield/admin/login/form' , function(){
+$Route->add('/greenfield/admin/dashboard/login/form' , function(){
 
    $Template = new Apps\Template;
    $Core = new Apps\Core;
    $Data =$Core->data;
-   //$Core->debug($Data);
+   $Core->debug($Data);
    $email = $Data->email;
    $password = $Core->Hashpass($Data->password);
    $login = $Core->admin_login($email,$password);
