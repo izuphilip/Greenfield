@@ -1,3 +1,11 @@
+
+<?php 
+$User = $Core->UserInfo($SELF->storage("accid"))
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

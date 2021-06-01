@@ -42,7 +42,7 @@
           <img src="<?=$assets?>/admin/dashboard/dist/img/ava.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a>Aliozor Izunna</a>
+          <h6 style="color:white;"><?="{$User->fname} {$User->lname}"?></h6><br>
         </div>
       </div>
 

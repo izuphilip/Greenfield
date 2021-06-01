@@ -8,7 +8,7 @@
                 <div class="col-sm-12">
                     <div class="content">
                         <h1 style="color: white;">About Us</h1>
-                        <h5 style="font-style:italic;">Explore Us...</h5>
+                        <h5 style="font-style:italic; color:grey;">Explore Us...</h5>
                     </div>
                 </div>
             </div>

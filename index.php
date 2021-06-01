@@ -130,31 +130,28 @@ $Route->add('/greenfield/admin/login' , function(){
 
 }, 'GET');
 
-$Route->add('/greenfield/admin/dashboard/login/form' , function(){
+$Route->add('/greenfield/admin/dashboard/form' , function(){
 
    $Template = new Apps\Template;
    $Core = new Apps\Core;
    $Data =$Core->data;
-   $Core->debug($Data);
    $email = $Data->email;
    $password = $Core->Hashpass($Data->password);
-   $login = $Core->admin_login($email,$password);
+   $login = $Core->Admin_login($email, $password);
+
+
    if ($login->id){
        $Template->authorize($login->id);
 
-       $Template->setError("Login Successful" , "success" ,"/greenfield/admin/dashboard");
+       $Template->setError("You Have  Successful Logged In" , "success" ,"/greenfield/admin/dashboard");
        $Template->redirect("/greenfield/admin/dashboard");
 
    }else{
-       $Template->setError("Invalid Email or Password !" ,"warning" ,"/greenfield/admin/login");
+       $Template->setError("You Have Entered Incorrect Password !" ,"warning" ,"/greenfield/admin/login");
    }
      
 
 }, 'POST');
-
-
-
-
 
 
 //Admin Dashboard
@@ -165,7 +162,6 @@ $Route->add('/greenfield/admin/dashboard', function () {
     $Template->addheader("admin.dashboard.layouts.header");
     $Template->addfooter("admin.dashboard.layouts.footer");
     $Template->assign("title","home");
-
     $Template->render("admin.dashboard.home");
 
 }, 'GET');
