@@ -133,9 +133,9 @@
                 <div class="overlay">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum</p>
-                    <a class="galleryItem" href="<?=$assets?>/site/images/530.png"><span class="icon-enlarge-icon"></span></a>
+                    <a class="galleryItem" href="<?=$assets?>/site/images/work9_530x530.jpeg"><span class="icon-enlarge-icon"></span></a>
                 </div>
-                <figure><img src="<?=$assets?>/site/images/530.png" class="img-responsive" alt=""></figure>
+                <figure><img src="<?=$assets?>/site/images/work9_530x530.jpeg" class="img-responsive" alt=""></figure>
             </li>
             <li>
                 <div class="overlay">
@@ -149,25 +149,25 @@
                 <div class="overlay">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum</p>
-                    <a class="galleryItem" href="<?=$assets?>/site/images/530.png"><span class="icon-enlarge-icon"></span></a>
+                    <a class="galleryItem" href="<?=$assets?>/site/images/5300.png.jpg"><span class="icon-enlarge-icon"></span></a>
                 </div>
-                <figure><img src="<?=$assets?>/site/images/530.png" class="img-responsive" alt=""></figure>
+                <figure><img src="<?=$assets?>/site/images/5300.png.jpg" class="img-responsive" alt=""></figure>
             </li>
             <li>
                 <div class="overlay">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum</p>
-                    <a class="galleryItem" href="<?=$assets?>/site/images/530.png"><span class="icon-enlarge-icon"></span></a>
+                    <a class="galleryItem" href="<?=$assets?>/site/images/worrk8_530x530.jpg"><span class="icon-enlarge-icon"></span></a>
                 </div>
-                <figure><img src="<?=$assets?>/site/images/530.png" class="img-responsive" alt=""></figure>
+                <figure><img src="<?=$assets?>/site/images/worrk8_530x530.jpg" class="img-responsive" alt=""></figure>
             </li>
             <li>
                 <div class="overlay">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum</p>
-                    <a class="galleryItem" href="<?=$assets?>/site/images/530.png"><span class="icon-enlarge-icon"></span></a>
+                    <a class="galleryItem" href="<?=$assets?>/site/images/work9_530x530.jpeg"><span class="icon-enlarge-icon"></span></a>
                 </div>
-                <figure><img src="<?=$assets?>/site/images/530.png" class="img-responsive" alt=""></figure>
+                <figure><img src="<?=$assets?>/site/images/work9_530x530.jpeg" class="img-responsive" alt=""></figure>
             </li>
         </ul>
     </section>
